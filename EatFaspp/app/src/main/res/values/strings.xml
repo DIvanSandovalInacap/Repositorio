@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Eat Faspp</string>
+    <string name="txt_titulo">Calculo Peso Ideal</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="btn_instrucciones">Instrucciones</string>
+    <string name="hnt_edad">Ingrese Edad</string>
+    <string name="txt_resultado">resultado</string>
+    <string name="hnt_nombre">Ingrese Nombre</string>
+    <string name="hnt_peso_actual">Peso Actual</string>
+    <string name="txt_titulo_resultado">Resultado Peso Ideal</string>
+    <string name="txv_instrucciones">Estas Son las Instrucciones ... </string>
+</resources>

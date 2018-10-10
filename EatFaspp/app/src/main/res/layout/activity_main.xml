@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+
+    <ImageView
+        android:layout_width="313dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_inacap" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_salud" />
+    <TextView
+        android:id="@+id/txv_titulo"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txt_titulo"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edt_edad"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="@string/hnt_edad" />
+    <EditText
+        android:id="@+id/edt_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hnt_nombre"
+        />
+    <EditText
+        android:id="@+id/edt_PesoActual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hnt_peso_actual"
+        />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_calcular"
+        android:drawableRight="@drawable/calcular_boton"
+        />
+
+    <Button
+        android:id="@+id/btn_instrucciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/help"
+        android:text="@string/btn_instrucciones" />
+
+</LinearLayout>
